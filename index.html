@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="theme">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Arsenal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="phone.css">
+    <!-- <script src="phone.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- <div id="dots-background"></div>  -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-lg p-3">
+
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="PhoneX.html">
+                <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759238748/erasebg-transformed_u7cvii.png"
+                    alt="The Arsenal Logo" style="height: 40px; width: auto; margin-right: 10px;">
+                THE Arsenal
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Add to Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="particle-container"></div>
+
+    <!-- Animated Landing Section -->
+    <section class="landing">
+        <div class="landing-content">
+            <h1 class="animate-title">Welcome to The Arsenal</h1>
+            <p class="animate-text">
+                "Precision Gear. Built for the Podium. Access the Elite Arsenal of gaming tech engineered to secure your
+                esports victory."
+            </p>
+            <a href="#productCarousel" class="btn-explore">Explore Now</a>
+        </div>
+    </section>
+    <section class="carousel-section my-5">
+        <h2 class="text-center mb-4" style="color: white;">Limited Edition Models</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <!-- SLIDE 1 -->
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <video class="d-block w-100" autoplay muted loop playsinline>
+                        <source src="https://res.cloudinary.com/dz59y5wvf/video/upload/v1759162566/10_pro_l3tfpa.mp4"
+                            type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Red Magic 10 Pro Golden Saga Edition</h5>
+                        <p>Luxury meets extreme power. Crafted with real gold & silver-plated cooling fins and 24GB
+                            RAM/1TB storage, this limited edition unleashes the Snapdragon 8 Elite chip with its
+                            ultimate ICE-X cooling system.</p>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <video class="d-block w-100" autoplay muted loop playsinline>
+                        <source src="https://res.cloudinary.com/dz59y5wvf/video/upload/v1759164278/rog9_ygzz2k.mp4"
+                            type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ASUS ROG Phone 9 Pro Limited Edition</h5>
+                        <p>The ultimate gaming beast with 24GB RAM and the Snapdragon 8 Elite. Features ultrasonic
+                            AirTriggers and a stunning, customizable Anime Vision Mini-LED secondary display on the
+                            back.</p>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 -->
+                <div class="carousel-item">
+                    <video class="d-block w-100" autoplay muted loop playsinline>
+                        <source src="https://res.cloudinary.com/dz59y5wvf/video/upload/v1759165053/gt_o5zifz.mp4"
+                            type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Infinix GT 30 Pro</h5>
+                        <p>Flagship gaming power at an unmatched price.Dominate your rivals with the Dimensity 8350
+                            Ultimate chip, a hyper-responsive 144Hz AMOLED display, and professional shoulder triggers
+                            built right into the frame.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CONTROLS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+  
+    <h1 class="text-center mb-4" style="color:white; font-size:65 px;">Our Top Picks</h1>
+    <!-- Carousel -->
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+
+            <!-- Carousel -->
+            <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Item 1 -->
+                    <div class="carousel-item active">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Red Magic 10 Pro Gold Saga Limited Edition</h3>
+                                <p>Premium limited-edition gaming smartphone with high performance, cooling, and bold
+                                    gold design.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.8" AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>50MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>1,20,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart"
+                                        data-name="Red Magic 10 Pro Gold Saga Limited Edition" data-price="120000">
+                                        ADD TO CART
+                                    </button>
+                                    <button class="btn btn-success checkout-now"
+                                        data-name="Red Magic 10 Pro Gold Saga Limited Edition" data-price="120000">
+                                        CHECKOUT
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/01_jnpdth.jpg"
+                                class="d-block ms-auto" alt="Red Magic 10 Pro Gold Saga Limited Edition">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 2 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Red Magic 9 Pro</h3>
+                                <p>High-end gaming smartphone with advanced cooling, AMOLED display, and flagship-level
+                                    performance.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.8" AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>50MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>95,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Red Magic 9 Pro"
+                                        data-price="95000">
+                                        ADD TO CART
+                                    </button>
+                                    <button class="btn btn-success checkout-now" data-name="Red Magic 9 Pro"
+                                        data-price="95000">
+                                        CHECKOUT
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217355/02_zxhymu.jpg"
+                                class="d-block ms-auto" alt="Red Magic 9 Pro">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 3 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>ASUS ROG Phone 9 Ultimate</h3>
+                                <p>Elite gaming phone with AeroActive cooling, stunning AMOLED display, and top-tier
+                                    gaming performance.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.78" AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>18GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>50MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>1,40,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="ASUS ROG Phone 9 Ultimate"
+                                        data-price="140000">
+                                        ADD TO CART
+                                    </button>
+                                    <button class="btn btn-success checkout-now" data-name="ASUS ROG Phone 9 Ultimate"
+                                        data-price="140000">
+                                        CHECKOUT
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/03_vjjecy.jpg"
+                                class="d-block ms-auto" alt="ASUS ROG Phone 9 Ultimate">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 4 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>ASUS ROG Phone 8 Pro</h3>
+                                <p>Premium gaming smartphone with RGB lighting, AMOLED display, and performance-focused
+                                    hardware.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.78" AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 2</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>50MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>1,15,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="ASUS ROG Phone 8 Pro"
+                                        data-price="115000">
+                                        ADD TO CART
+                                    </button>
+                                    <button class="btn btn-success checkout-now" data-name="ASUS ROG Phone 8 Pro"
+                                        data-price="115000">
+                                        CHECKOUT
+                                    </button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/04_hlzo4b.jpg"
+                                class="d-block ms-auto" alt="ASUS ROG Phone 8 Pro">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 5 -->
+                    <!-- Item 5 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>iPhone 16 Pro Max</h3>
+                                <p>Flagship Apple smartphone with A16 Bionic chip, Super Retina XDR display, and
+                                    advanced camera system.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.7" Super Retina XDR</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>A16 Bionic</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>12GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>48MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>2,00,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="iPhone 16 Pro Max"
+                                        data-price="200000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="iPhone 16 Pro Max"
+                                        data-price="200000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/05_wflejn.jpg"
+                                class="d-block ms-auto" alt="iPhone 16 Pro Max">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 6 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Samsung S25 Galaxy Ultra</h3>
+                                <p>Flagship Samsung smartphone with AMOLED display, Snapdragon 8 Gen 3, and professional
+                                    camera setup.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.9" AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>12GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>108MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>1,90,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Samsung S25 Galaxy Ultra"
+                                        data-price="190000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Samsung S25 Galaxy Ultra"
+                                        data-price="190000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/06_i0rlvy.jpg"
+                                class="d-block ms-auto" alt="Samsung S25 Galaxy Ultra">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 7 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Samsung Z Fold 7</h3>
+                                <p>Next-gen foldable flagship with massive foldable AMOLED display, Snapdragon 8 Gen 3,
+                                    and multitasking features.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>7.8" Foldable AMOLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>512GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>200MP Triple</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>2,45,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Samsung Z Fold 7"
+                                        data-price="245000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Samsung Z Fold 7"
+                                        data-price="245000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/07_a4jpmy.jpg"
+                                class="d-block ms-auto" alt="Samsung Z Fold 7">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 8 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>MSI Titan Series</h3>
+                                <p>Ultimate high-performance gaming laptop with RTX GPU, Intel i9, and RGB mechanical
+                                    keyboard.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>17.3" IPS</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,50,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="MSI Titan Series"
+                                        data-price="350000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="MSI Titan Series"
+                                        data-price="350000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/08_fitetj.jpg"
+                                class="d-block ms-auto" alt="MSI Titan Series">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 9 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>MSI Raider HX Series</h3>
+                                <p>High-performance gaming laptop with RTX GPU, Intel i9, and advanced cooling system
+                                    for heavy gaming.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>17.3" IPS</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,20,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="MSI Raider HX Series"
+                                        data-price="320000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="MSI Raider HX Series"
+                                        data-price="320000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/09_qn8bny.jpg"
+                                class="d-block ms-auto" alt="MSI Raider HX Series">
+                        </div>
+                    </div>
+
+
+                    <!-- Item 10 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Lenovo Legion Top Model</h3>
+                                <p>Gaming laptop with high-refresh-rate display, Intel i9 CPU, RTX GPU, and RGB
+                                    mechanical keyboard.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>16" IPS</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,00,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Lenovo Legion Top Model"
+                                        data-price="300000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Lenovo Legion Top Model"
+                                        data-price="300000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/10_d45qrt.jpg"
+                                class="d-block ms-auto" alt="Lenovo Legion Top Model">
+                        </div>
+                    </div>
+
+                    <!-- ASUS Top Model 11 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>ASUS ROG Top Model</h3>
+                                <p>High-end gaming laptop with Intel i9, RTX GPU, and premium cooling for extended
+                                    gaming sessions.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>17.3" IPS</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,40,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="ASUS ROG Top Model"
+                                        data-price="340000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="ASUS ROG Top Model"
+                                        data-price="340000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/11_nb2e1l.jpg"
+                                class="d-block ms-auto" alt="ASUS ROG Top Model">
+                        </div>
+                    </div>
+
+
+                    <!-- RedMagic 12 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Razer Blade Top Model</h3>
+                                <p>Ultra-slim gaming laptop with powerful GPU, high-refresh display, and customizable
+                                    RGB keyboard.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>15.6" OLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,60,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Razer Blade Top Model"
+                                        data-price="360000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Razer Blade Top Model"
+                                        data-price="360000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/12_obij7p.jpg"
+                                class="d-block ms-auto" alt="Razer Blade Top Model">
+                        </div>
+                    </div>
+
+
+                    <!-- Nothing Phone 13 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Nothing Phone 3 Pro</h3>
+                                <p>Futuristic design gaming smartphone with Snapdragon 8 Gen 3, OLED display, and fast
+                                    refresh rate.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>6.7" OLED</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Snapdragon 8 Gen 3</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>12GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>256GB</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>50MP Dual</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>1,10,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Nothing Phone 3 Pro"
+                                        data-price="110000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Nothing Phone 3 Pro"
+                                        data-price="110000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/13_ef8uw2.jpg"
+                                class="d-block ms-auto" alt="Nothing Phone 3 Pro">
+                        </div>
+                    </div>
+
+
+                    <!-- iPhone 16 Top Model 14-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>MSI Top Gaming Desktop</h3>
+                                <p>High-performance desktop with Intel i9, RTX GPU, and advanced cooling system for
+                                    professional gaming.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>2TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>4,00,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="MSI Top Gaming Desktop"
+                                        data-price="400000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="MSI Top Gaming Desktop"
+                                        data-price="400000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/14_fm6unh.jpg"
+                                class="d-block ms-auto" alt="MSI Top Gaming Desktop">
+                        </div>
+                    </div>
+
+
+                    <!-- HP Gaming Laptop 15 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Alienware Dell Desktop</h3>
+                                <p>Premium gaming desktop with Intel i9, NVIDIA RTX 4090, and AlienFX lighting for
+                                    ultimate gaming.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>2TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>4,50,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Alienware Dell Desktop"
+                                        data-price="450000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Alienware Dell Desktop"
+                                        data-price="450000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/15_zuc3eb.jpg"
+                                class="d-block ms-auto" alt="Alienware Dell Desktop">
+                        </div>
+                    </div>
+
+
+                    <!-- Dell Business Laptop  16-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>ASUS Top Desktop</h3>
+                                <p>Powerful gaming desktop with Intel i9 CPU, RTX GPU, liquid cooling, and RGB lighting
+                                    for high-end gaming.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>2TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>4,20,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="ASUS Top Desktop"
+                                        data-price="420000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="ASUS Top Desktop"
+                                        data-price="420000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217357/16_kcnhqr.jpg"
+                                class="d-block ms-auto" alt="ASUS Top Desktop">
+                        </div>
+                    </div>
+
+
+                    <!-- ASUS Top Laptop  17-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Corsair Top Gaming PC</h3>
+                                <p>High-performance gaming desktop with Intel i9, RTX GPU, RGB lighting, and Corsair
+                                    cooling system.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>2TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>4,00,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Corsair Top Gaming PC"
+                                        data-price="400000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Corsair Top Gaming PC"
+                                        data-price="400000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/17_dnm9pp.jpg"
+                                class="d-block ms-auto" alt="Corsair Top Gaming PC">
+                        </div>
+                    </div>
+
+
+                    <!-- Google Pixel 18-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>HP Omen Top Desktop</h3>
+                                <p>High-end HP gaming desktop with Intel i9, RTX GPU, and customizable RGB lighting for
+                                    gamers.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>Intel i9</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>32GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>2TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>3,80,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="HP Omen Top Desktop"
+                                        data-price="380000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="HP Omen Top Desktop"
+                                        data-price="380000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/18_sxhrzv.jpg"
+                                class="d-block ms-auto" alt="HP Omen Top Desktop">
+                        </div>
+                    </div>
+
+
+                    <!-- gaming chair 19-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>DXRacer Gaming Chair</h3>
+                                <p>Ergonomic gaming chair with adjustable armrests, high back support, and premium
+                                    cushioning for comfort.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>25,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="DXRacer Gaming Chair"
+                                        data-price="25000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="DXRacer Gaming Chair"
+                                        data-price="25000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/19_enydxi.jpg"
+                                class="d-block ms-auto" alt="DXRacer Gaming Chair">
+                        </div>
+                    </div>
+
+
+                    <!-- Best Earbuds 20 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Secretlab Titan EVO 2023</h3>
+                                <p>Premium ergonomic gaming chair with multi-tilt system, memory foam cushions, and full
+                                    lumbar support.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>28,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Secretlab Titan EVO 2023"
+                                        data-price="28000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Secretlab Titan EVO 2023"
+                                        data-price="28000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217355/22_tbtqjk.jpg"
+                                class="d-block ms-auto" alt="Secretlab Titan EVO 2023">
+                        </div>
+                    </div>
+
+                    <!-- <--table 21-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>DXRacer Gaming Desk</h3>
+                                <p>Sturdy gaming desk with cable management, RGB lighting, and large surface area for
+                                    multiple monitors.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>35,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="DXRacer Gaming Desk"
+                                        data-price="35000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="DXRacer Gaming Desk"
+                                        data-price="35000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759218572/21d_v6g628.jpg"
+                                class="d-block ms-auto" alt="DXRacer Gaming Desk">
+                        </div>
+                    </div>
+
+                    <!-- ps5  22-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>PlayStation 5</h3>
+                                <p>Next-gen console with ultra-fast SSD, 4K graphics, and immersive haptic feedback for
+                                    gaming.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>AMD Zen 2</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>825GB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>50,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="PlayStation 5"
+                                        data-price="50000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="PlayStation 5"
+                                        data-price="50000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/20_iy7zco.jpg"
+                                class="d-block ms-auto" alt="PlayStation 5">
+                        </div>
+                    </div>
+                    <!-- Xbox  23-->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Xbox Series X</h3>
+                                <p>Next-gen Xbox console with 4K gaming, SSD storage, and high frame rates for smooth
+                                    gameplay.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>AMD Zen 2</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>16GB RAM</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>1TB SSD</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>50,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="Xbox Series X"
+                                        data-price="50000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="Xbox Series X"
+                                        data-price="50000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217358/21_smyimf.jpg"
+                                class="d-block ms-auto" alt="Xbox Series X">
+                        </div>
+                    </div>
+                    <!-- headphones 24 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>SteelSeries Arctis Nova Pro</h3>
+                                <p>Premium gaming headphones with surround sound, noise cancellation, and high-fidelity
+                                    audio.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>25,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart" data-name="SteelSeries Arctis Nova Pro"
+                                        data-price="25000">ADD TO CART</button>
+                                    <button class="btn btn-success checkout-now" data-name="SteelSeries Arctis Nova Pro"
+                                        data-price="25000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/23_paamig.jpg"
+                                class="d-block ms-auto" alt="SteelSeries Arctis Nova Pro">
+                        </div>
+                    </div>
+                    <!-- mechanical keyborad and mouse 25 -->
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="detail me-4">
+                                <h3>Razer Huntsman Elite + Viper Ultimate</h3>
+                                <p>Premium mechanical keyboard and wireless gaming mouse combo with RGB lighting and
+                                    high responsiveness.</p>
+                                <div class="specifications d-flex flex-wrap gap-3">
+                                    <div>
+                                        <p>Display</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Processor</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Memory</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Storage</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Camera</p>
+                                        <p>N/A</p>
+                                    </div>
+                                    <div>
+                                        <p>Price</p>
+                                        <p>35,000</p>
+                                    </div>
+                                </div>
+                                <div class="checkout mt-3">
+                                    <button class="btn btn-primary add-to-cart"
+                                        data-name="Razer Huntsman Elite + Viper Ultimate" data-price="35000">ADD TO
+                                        CART</button>
+                                    <button class="btn btn-success checkout-now"
+                                        data-name="Razer Huntsman Elite + Viper Ultimate"
+                                        data-price="35000">CHECKOUT</button>
+                                </div>
+                            </div>
+                            <img src="https://res.cloudinary.com/dz59y5wvf/image/upload/v1759217356/24_oo3p8o.jpg"
+                                class="d-block ms-auto" alt="Razer Huntsman Elite + Viper Ultimate">
+                        </div>
+                    </div>
+
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+            <!-- Offers & Benefits Section -->
+            <!-- Carousel Ends Here -->
+        </div>
+    </div>
+    <!-- Benefits & Offers Section -->
+    <div>
+        <section class="offers">
+            <div class="container">
+                <div class="card shadow-lg p-5">
+                    <h2 class="text-center mb-5">Exclusive Offers & Benefits</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="b">
+                                <h4>Special Discounts</h4>
+                                <p>Get up to 30% off on latest gadgets.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card p-4 text-center">
+                                <h4>Free Delivery</h4>
+                                <p>Enjoy fast & free delivery on orders above ₹10,000.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card p-4 text-center">
+                                <h4>Cashback Rewards</h4>
+                                <p>Earn cashback on every purchase made online.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card p-4 text-center">
+                                <h4>Exclusive Offers</h4>
+                                <p>Festival & seasonal deals only for members.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+    <div>
+        <!--  Testimonials Section -->
+        <section class="testimonials py-5 bg-light text-center" id="testimonials">
+            <div class="container">
+                <h2 class="mb-5 fw-bold">What Our Customers Say</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white shadow rounded">
+                            <p class="fst-italic">"The best phone I've ever owned! Fast, stylish, and worth every
+                                penny."</p>
+                            <h5 class="mt-3">- Sarah J.</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white shadow rounded">
+                            <p class="fst-italic">"Camera quality is amazing and battery lasts all day. Highly
+                                recommend!"</p>
+                            <h5 class="mt-3">- David R.</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white shadow rounded">
+                            <p class="fst-italic">"Smooth performance and beautiful design. PhoneX nailed it!"</p>
+                            <h5 class="mt-3">- Emily K.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2025 Your Website. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', () => {
+                const product = {
+                    name: button.dataset.name,
+                    price: parseFloat(button.dataset.price)
+                };
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                cart.push(product);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                alert(product.name + " added to cart!");
+            });
+        });
+    </script>
+
+    <div id="particle-container"></div>
+
+    <script>
+        const container = document.getElementById("particle-container");
+
+        function createParticle() {
+            const particle = document.createElement("div");
+            particle.classList.add("particle");
+
+            const size = Math.random() * 4 + 2;
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${Math.random() * 100}vw`;
+
+            const duration = Math.random() * 4 + 3;
+            particle.style.animationDuration = `${duration}s`;
+
+            container.appendChild(particle);
+            setTimeout(() => particle.remove(), duration * 1000);
+        }
+
+        setInterval(createParticle, 30);
+    </script>
+
+
+    <script id="omnidimension-web-widget" async
+        src="https://backend.omnidim.io/web_widget.js?secret_key=0be08c17d23e267af9e0fa49cc0cfc50"></script>
+    <!-- </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
